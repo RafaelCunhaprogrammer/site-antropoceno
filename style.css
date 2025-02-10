@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button,
+.professores-container button {
+    font-family: "Bungee", cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#FFD658, #FFC655, #FFB653, #FFA54F, #FF954F);
+    background-attachment: fixed;
+}
+
+header {
+    padding: 2rem;
+    background-color: #771014;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 3rem;
+    margin-left: -30px;
+}
+
+.container-cadastro h2, input, button {
+    font-size: 12px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.container-cadastro h2 {
+    font-size: 24px;
+}
+
+img {
+    height: 15rem;
+    display: inline;
+    margin-right: 2px;
+    margin-top: auto;
+    padding-left: 0rem;
+    
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.curso:hover {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.contato:hover {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.professores:hover {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.aluno:hover {
+    object-fit: cover;
+    transform: scale(1.3);
+}
+
+.professores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    padding: 0 2px;
+    font-style: normal;
+}
+
+.professores-container img {
+    height: 32rem;
+}
+
+.professores-container {
+    display: flex;
+    margin-right: 8px;
+}
+
+.professores-container img:hover {
+    transform: scale(1.3);
+}
+
+.equipe-de-professores h2 {
+    font-family:"Bungee", cursive;
+    font-size: 36px;
+    font-weight: 900;
+    color: #771014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+.equipe-de-professores:hover {
+    transform: scale(1.3);
+}
+
+.Imagens-container {
+    width: 200px;
+    height: 380px;
+    flex-grow: 0;
+    transition: transform .5s linear;
+}
+
+.Imagens-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Imagens-container:hover {
+    transform: scale(1.3);
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #771014;
+}
+
+section p {
+    margin-bottom: 1px;
+    margin-right: 30px;
+    padding-right: 3rem;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #771014;
+}
+
+.social-links img:hover {
+    transform: scale(1.3);
+}
+
+#cadastro .container-cadastro {
+    display: block;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 160%;
+    margin-bottom: 8px;
+    padding: 0.6rem;
+    border: 2px;
+    border-radius: 5px;
+    outline: none;
+}
+
+form textarea {
+    resize: none;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #771014;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    transform: scale(1.3);
+    background-color: #771014;
+}
+
+.professores-container button {
+    background-color: #771014;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 90%;
+    margin-bottom: 8px;
+    padding: 0.7rem;
+    border: 2px;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+}
+
+input:focus, textarea:focus {
+    outline-color: #771014;
+}
+
+footer {
+    background-color: #771014;
+    color: #ecf0f1;
+    padding: 2rem;
+    text-align: center;
+}
